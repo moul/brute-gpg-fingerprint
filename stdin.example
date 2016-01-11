@@ -1,0 +1,16 @@
+%echo Generating key...
+Key-Type: RSA
+Key-Length: 4096
+Key-Usage: encrypt,sign,auth
+Subkey-Type: RSA
+Subkey-Length: 4096
+Subkey-Usage: encrypt,sign,auth
+Name-Real: Manfred Touron
+Name-Comment: http://m.42.am/
+Name-Email: m@42.am
+Expire-Date: 0
+Passphrase: blahblah
+%secring myring.sec
+%pubring myring.pub
+%commit
+%echo done
