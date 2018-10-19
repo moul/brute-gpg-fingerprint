@@ -1,4 +1,7 @@
 # brute-gpg-fingerprint
+
+[![GuardRails badge](https://badges.production.guardrails.io/moul/brute-gpg-fingerprint.svg)](https://www.guardrails.io)
+
 :neckbeard: bruteforce `gpg --gen-key` to get a cool fingerprint
 
 ## Usage
